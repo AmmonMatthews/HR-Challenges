@@ -2,7 +2,7 @@
 
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
-        size = 1 #size of the list
+        size = 1 #list starts at one because there will always be at least one node. 
         p = head #previous pointer
         cur = head #current pointer
         while cur.next: #while a next node exists
